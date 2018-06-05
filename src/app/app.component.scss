@@ -5,11 +5,11 @@ $text-color: #22221d;
 // }
 
 .container {
-    background-color: bisque;
     font-family: 'Assistant', sans-serif;
     direction: rtl;
     color: $text-color;
     padding: 1.3em 0.3em;
+    background-color: #c8beb9;
 }
 
 @media screen and (min-width: 600px) {
