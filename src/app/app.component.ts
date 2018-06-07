@@ -35,6 +35,14 @@ export class AppComponent {
       this.isPhone = false;
     }
   }
+
+  getLogoWidth() {
+    return window.innerWidth <= 390 ? window.innerWidth*0.96 : 380;
+  }
+
+  getBoobyWidth() {
+    return window.innerWidth <= 390 ? window.innerWidth*0.5 : 200;
+  }
   
   showSocialIcons(event:Event) {
     this.showSocial = this.showSocial ? false : true;
